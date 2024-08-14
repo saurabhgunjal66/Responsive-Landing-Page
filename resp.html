@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Development Landing Page</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">WebDevPro</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+
+    <section id="home" class="hero-section">
+        <div class="hero-text" data-aos="fade-up">
+            <h1>Welcome to WebDevPro</h1>
+            <p>Your one-stop solution for web development</p>
+            <a href="#services" class="cta-btn" data-aos="zoom-in" data-aos-delay="300">Our Services</a>
+        </div>
+    </section>
+
+    <section id="about" class="about-section">
+        <h2 data-aos="fade-right">About Us</h2>
+        <p data-aos="fade-left">We specialize in creating responsive, user-friendly websites that help your business grow.</p>
+    </section>
+
+    <section id="services" class="services-section">
+        <h2 data-aos="fade-up">Our Services</h2>
+        <div class="service-cards">
+            <div class="card" data-aos="flip-left">
+                <h3>Web Design</h3>
+                <p>Creative and modern designs for your business.</p>
+            </div>
+            <div class="card" data-aos="flip-right">
+                <h3>Development</h3>
+                <p>High-quality development with the latest technologies.</p>
+            </div>
+            <div class="card" data-aos="flip-left">
+                <h3>SEO</h3>
+                <p>Optimized for search engines to rank higher.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <h2 data-aos="fade-up">Contact Us</h2>
+        <form data-aos="fade-up" data-aos-delay="200">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 WebDevPro. All Rights Reserved.</p>
+    </footer>
+
+    <a href="#home" class="back-to-top" data-aos="fade-up">&uarr;</a>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
